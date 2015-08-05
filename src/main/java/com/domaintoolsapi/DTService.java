@@ -56,7 +56,7 @@ public class DTService {
 		String sLine = "";
 
 		try{
-			System.out.println("url "+url);
+			//System.out.println("url "+url);
 			httpConnection = (HttpURLConnection) url.openConnection();
 			httpConnection.setRequestMethod("GET");
 			httpConnection.setDoOutput(true);
